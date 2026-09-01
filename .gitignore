@@ -1,0 +1,22 @@
+# RecoverAI Git Ignore Rules
+
+# Python & Databases
+__pycache__/
+*.pyc
+*.pyo
+*.db
+backend/recoverai.db
+*.pkl
+ml/transactions_10k.csv
+ml/risk_model.pkl
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# OS & Environment
+.DS_Store
+.env
+*.log
